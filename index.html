@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="main-title">
+        <p>SPLI<br>TTER</p>
+    </div>
+
+    <div class="main-container flex">
+
+        <div class="display flex ">
+            <h4 class="sub-class-color">Bill</h4>
+            <div class="display-bill flex">
+                <div class="img-container">
+                    <img src="./images/icon-dollar.svg">
+                </div>
+
+                <p>142.55</p>
+            </div>
+        </div>
+
+        <div class="tip-section flex">
+            <h4 class="sub-class-color">Select Tip %</h4>
+            <div class="tip-box flex">
+                <div class="tip-content">
+                    <p>5%</p>
+                </div>
+                <div class="tip-content">
+                    <p>10%</p>
+                </div>
+                <div class="tip-content">
+                    <p>15%</p>
+                </div>
+                <div class="tip-content">
+                    <p>25%</p>
+                </div>
+                <div class="tip-content">
+                    <p>50%</p>
+                </div>
+                <div class="custom-input">
+                    <p><input placeholder="Custom"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="num_people flex">
+            <h4 class="sub-class-color">Number of People</h4>
+            <div class="display_number_people flex">
+                <div class="img-container">
+                    <img src="./images/icon-person.svg">
+                </div>
+                <input>
+
+            </div>
+        </div>
+
+        <div class="summary-section flex">
+            <div class="flex justify-content-spaced ml-8 mr-8">
+                <h4 class="white-text">Tip Amount<br><span class=" font-size-13 sub-class-color">/ person</span> </h4>
+                <p>$4.27</p>
+            </div>
+            <div class="flex justify-content-spaced ml-8 mr-8">
+                <h4 class="white-text">Total<br><span class=" font-size-13 sub-class-color">/ person</span> </h4>
+                <p>$32.79</p>
+            </div>
+            <button>RESET</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
